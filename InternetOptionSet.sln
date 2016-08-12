@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InternetOptionSet", "InternetOptionSet\InternetOptionSet.vcxproj", "{24F89F30-BE5D-4A8A-8AE3-87E4C05D659C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProxySet", "ProxySet\ProxySet.vcxproj", "{B5138C6C-7491-42CE-8239-9ECF49619CCC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{24F89F30-BE5D-4A8A-8AE3-87E4C05D659C} = {24F89F30-BE5D-4A8A-8AE3-87E4C05D659C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24F89F30-BE5D-4A8A-8AE3-87E4C05D659C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{24F89F30-BE5D-4A8A-8AE3-87E4C05D659C}.Debug|Win32.Build.0 = Debug|Win32
+		{24F89F30-BE5D-4A8A-8AE3-87E4C05D659C}.Release|Win32.ActiveCfg = Release|Win32
+		{24F89F30-BE5D-4A8A-8AE3-87E4C05D659C}.Release|Win32.Build.0 = Release|Win32
+		{B5138C6C-7491-42CE-8239-9ECF49619CCC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B5138C6C-7491-42CE-8239-9ECF49619CCC}.Debug|Win32.Build.0 = Debug|Win32
+		{B5138C6C-7491-42CE-8239-9ECF49619CCC}.Release|Win32.ActiveCfg = Release|Win32
+		{B5138C6C-7491-42CE-8239-9ECF49619CCC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
